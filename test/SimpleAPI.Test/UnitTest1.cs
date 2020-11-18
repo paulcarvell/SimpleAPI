@@ -12,7 +12,7 @@ namespace SimpleAPI.Test
         public void GetReturnsShite()
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("Pile of shit",returnValue.Value);
+            Assert.Equal("Pile of shite",returnValue.Value);
         }
 
         [Fact]
